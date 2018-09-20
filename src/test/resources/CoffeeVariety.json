@@ -1,0 +1,14 @@
+[
+{
+	"coffeeName":"latte",
+	"coffeeDescricption":"extra milk",
+	"totalServings":100
+	
+},
+{
+	"coffeeName":"cappucino",
+	"coffeeDescricption":"less froth",
+	"totalServings":100
+	
+}
+]

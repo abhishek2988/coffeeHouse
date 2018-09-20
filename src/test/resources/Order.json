@@ -1,0 +1,13 @@
+{
+	"customer":{
+		"name":"Abhishek",
+		"phoneNumber":"8884377991"
+	},
+	"coffeeVarietyOrdered":[
+	{
+		"coffeeName":"latte",
+		"quantity":4
+		
+		
+	}]
+}

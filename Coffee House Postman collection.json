@@ -1,0 +1,110 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Coffee House",
+		"_postman_id": "e40f2359-571f-2b67-0812-f3c1098cb2a1",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/customer",
+			"request": {
+				"url": "http://localhost:8080/customer",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"Abhishek\",\n\t\"age\": 29,\n\t\"phoneNumber\": 8884377991\n}"
+				},
+				"description": "Add/Update Customer"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/coffee",
+			"request": {
+				"url": "http://localhost:8080/coffee",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic a290Z2FkbWluOnF3ZXJ0eTIwMTc=",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " [\r\n\t\r\n{\r\n\t\"coffeeName\":\"latte\",\r\n\t\"coffeeDescricption\":\"extra milk\",\r\n\t\"totalServings\":100\r\n\t\r\n},\r\n{\r\n\t\"coffeeName\":\"cappucino\",\r\n\t\"coffeeDescricption\":\"less froth\",\r\n\t\"totalServings\":100\r\n\t\r\n}]"
+				},
+				"description": "Add/Update coffee variety"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/order",
+			"request": {
+				"url": "http://localhost:8080/order",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"customer\":{\r\n\t\t\"name\":\"Abhishek\",\r\n\t\t\"phoneNumber\":\"8884377991\"\r\n\t},\r\n\t\"coffeeVarietyOrdered\":[\r\n\t{\r\n\t\t\"coffeeName\":\"latte\",\r\n\t\t\"quantity\":4\r\n\t\t\r\n\t\t\r\n\t}]\r\n}"
+				},
+				"description": "Process order"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/report",
+			"request": {
+				"url": "http://localhost:8080/report",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": "Generate daily report"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/customer",
+			"request": {
+				"url": "http://localhost:8080/customer",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"Abhishek\",\n\t\"age\": 29,\n\t\"phoneNumber\": 8884377991\n}"
+				},
+				"description": "Get customer list"
+			},
+			"response": []
+		}
+	]
+}

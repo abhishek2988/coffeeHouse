@@ -1,0 +1,17 @@
+{
+    "success": true,
+    "payload": {
+        "dailyReport": [
+            {
+                "coffeeVariety": "cappucino",
+                "totalServings": 100,
+                "totalServingsSold": 0
+            },
+            {
+                "coffeeVariety": "latte",
+                "totalServings": 100,
+                "totalServingsSold": 4
+            }
+        ]
+    }
+}
