@@ -1,4 +1,4 @@
-#Project Name
+# Project Name
 
 Coffee House.
 
@@ -22,16 +22,16 @@ In order to evaluate the project code and run the project following is the basic
  - Maven
  - Postman
  
-##Build & Deploy
+## Build & Deploy
 In order to build and deploy the project kindly use the build_run.bat file.
 
-##Testing
+## Testing
 Use the postman collection "Coffee House Postman collection.json" to test the REST end-points using the postman tool.
 
-##Swagger End-points
+## Swagger End-points
 The application has been configured with swagger end-points and can be accessed at:
 http://localhost:8080/swagger-ui.html
 
-##Troubleshooting
+## Troubleshooting
 Call me up (Abhishek) @+91-8884377991. Happy to help.!!
 
