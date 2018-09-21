@@ -21,6 +21,14 @@ In order to evaluate the project code and run the project following is the basic
  - IDE (Eclipse, STS etc.)
  - Maven
  - Postman
+
+## Tech stack used
+
+ - Java 8
+ - Spring boot
+ - Junits
+ - Mockito
+ - Maven
  
 ## Build & Deploy
 In order to build and deploy the project kindly use the build_run.bat file.
